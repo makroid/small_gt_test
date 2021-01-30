@@ -40,7 +40,10 @@ def first_func_in_feature_a(a, n):
 
 
 def new_feature_b(b):
-    return b*b*b
+    return b*b
+
+def new_feature_bb(bb):
+    return b*b*b*b
 
 if __name__ == "__main__":
     to = 123123
