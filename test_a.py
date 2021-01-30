@@ -28,7 +28,9 @@ txt = """this is a random test text, quite random"""
 
 
 if __name__ == "__main__":
-    to = 130
+    to = 330
+
+    print("fib:")
     test_fib(to)
 
     d = count_words(txt)
