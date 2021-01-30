@@ -27,11 +27,20 @@ def count_words(s):
 txt = """this is a random test text, quite random"""
 
 
+def first_func_in_feature_a(a, n):
+    b = 1
+    for i in range(n)
+        b *= a
+    return b
+
+
 if __name__ == "__main__":
     to = 330
 
     print("fib:")
     test_fib(to)
+
+    print("adding feature a")
 
     d = count_words(txt)
 
