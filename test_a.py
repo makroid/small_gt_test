@@ -26,6 +26,11 @@ def count_words(s):
 
 txt = """this is a random test text, quite random"""
 
+def new_feature_in_master(m):
+    n = 0
+    while i<m:
+        n += i
+    return n
 
 if __name__ == "__main__":
     to = 330
