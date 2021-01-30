@@ -34,13 +34,16 @@ def new_feature_in_master(m):
 
 def first_func_in_feature_a(a, n):
     b = 1
-    for i in range(n)
+    for i in range(n):
         b *= a
     return b
 
 
+def new_feature_b(b):
+    return b*b*b
+
 if __name__ == "__main__":
-    to = 330
+    to = 123123
 
     print("fib:")
     test_fib(to)
