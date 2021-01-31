@@ -57,3 +57,6 @@ if __name__ == "__main__":
 
     for dd in d:
         print(dd, "=>", d[dd])
+
+    for t in range(min(to,10)):
+        print("ok")
