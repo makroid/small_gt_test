@@ -46,7 +46,7 @@ def new_feature_bb(bb):
     return b*b*b*b
 
 if __name__ == "__main__":
-    to = 123123
+    to = 330999
 
     print("fib:")
     test_fib(to)
