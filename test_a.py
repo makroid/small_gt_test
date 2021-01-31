@@ -63,3 +63,8 @@ if __name__ == "__main__":
 
     for t in range(10):
         print("t=", t)
+
+    N = 10
+    i = 0
+    while i < N:
+        i += 1
