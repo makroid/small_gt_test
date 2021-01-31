@@ -45,6 +45,10 @@ def new_feature_b(b):
 def new_feature_bb(bb):
     return b*b*b*b
 
+def rewritten_from_master():
+    for i in range(10):
+        yield i
+
 if __name__ == "__main__":
     to = 330999
 
