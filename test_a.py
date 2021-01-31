@@ -61,9 +61,6 @@ if __name__ == "__main__":
     for t in range(min(to,10)):
         print("ok")
 
-    for t in range(10):
-        print("t=", t)
-
     N = 10
     i = 0
     while i < N:
