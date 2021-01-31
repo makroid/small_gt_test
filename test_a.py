@@ -39,8 +39,14 @@ def first_func_in_feature_a(a, n):
     return b
 
 
+def new_feature_b(b):
+    return b*b
+
+def new_feature_bb(bb):
+    return b*b*b*b
+
 if __name__ == "__main__":
-    to = 333330
+    to = 330999
 
     print("fib:")
     test_fib(to)
